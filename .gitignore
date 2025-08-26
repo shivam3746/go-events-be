@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Compiled Go packages
+*.o
+*.obj
+
+# Local vendor folder (if not using Go Modules or if explicitly ignored)
+vendor/
+
+# Go module cache (usually outside the project, but can be added if needed)
+# $GOPATH/pkg/mod/
+# go.sum # if you want to ignore changes to go.sum, though generally it's recommended to track it
+
+# Editor-specific files
+.vscode/ # VS Code workspace and settings
+.idea/   # IntelliJ IDEA project files
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS specific files
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+logs/
+
+# Environment variables and sensitive data
+.env
+config.local.yaml
+*.pem
+*.key
+
+# Build output directories (if applicable)
+dist/
+build/
